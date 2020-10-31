@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace Catalog.API.Controllers
 {
     /*[Authorize]*/
-    public class ProductController : CatalogRepository
+    public class ProductController : ControllerBase
     {
         public ProductController()
         {

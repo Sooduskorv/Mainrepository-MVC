@@ -28,19 +28,7 @@ namespace Order.API
             services.AddGrpc();
             services.AddCustomSwagger(Configuration);
             services.AddCustomAuthentication(Configuration);
-            services.AddDbContext<OrderApplicationDbContext>(options =>  // TODO ???
-            {
-                options.UseSqlServer("Server=(localdb)\\MSSQLLocaldb;Database=OrderDB;Trusted_Connection=True;");
-            });
-            services.AddDbContext<OrderDbContext>(options =>
-            {
-                options.UseSqlServer("Server=(localdb)\\MSSQLLocaldb;Database=OrderDB;Trusted_Connection=True;");
-            });
-            services.AddDbContext<AddressDbContext>(options =>
-            {
-                options.UseSqlServer("Server=(localdb)\\MSSQLLocaldb;Database=OrderDB;Trusted_Connection=True;");
-            });
-            services.AddDbContext<ShippingDbContext>(options =>
+            services.AddDbContext<OrderApplicationDbContext>(options =>
             {
                 options.UseSqlServer("Server=(localdb)\\MSSQLLocaldb;Database=OrderDB;Trusted_Connection=True;");
             });

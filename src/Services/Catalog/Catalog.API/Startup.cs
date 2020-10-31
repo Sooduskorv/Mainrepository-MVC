@@ -6,7 +6,6 @@ using Catalog.API.Middleware;
 using Catalog.Domain.Repositories;
 using Catalog.Infra;
 using Catalog.Infra.Catalog;
-using EventBus.Abstractions;
 using IdentityServer4.AccessTokenValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;

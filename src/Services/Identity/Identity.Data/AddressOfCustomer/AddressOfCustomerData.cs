@@ -1,6 +1,4 @@
-﻿using Sooduskorv_MVC.Data.CommonData;
-
-namespace Order.Data.AddressOfCustomer
+﻿namespace Identity.Data.AddressOfCustomer
 {
     public sealed class AddressOfCustomerData :AddressedEntityData
     {

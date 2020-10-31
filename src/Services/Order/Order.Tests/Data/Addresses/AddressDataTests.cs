@@ -1,6 +1,6 @@
 ﻿using CommonTests.OverallTests;
+using Identity.Data.Addresses;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Order.Data.Addresses;
 using Sooduskorv_MVC.Data.CommonData;
 
 namespace Order.Tests.Data.Addresses

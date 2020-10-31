@@ -1,6 +1,6 @@
 ﻿syntax = "proto3";
 
-import "BasketDetails.proto";
+/*import "BasketDetails.proto";
 
 service BasketService {
 	rpc GetBaskets (GetBasketsByIdRequest) returns (stream GetBasketsResponse) {}
@@ -13,5 +13,6 @@ message GetBasketsByIdRequest {
 message GetBasketsResponse {
 	repeated Basket basket = 1;
 }
+*/
 
 

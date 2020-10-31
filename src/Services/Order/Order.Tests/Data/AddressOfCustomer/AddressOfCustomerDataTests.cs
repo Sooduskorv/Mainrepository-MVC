@@ -1,6 +1,6 @@
 ﻿using CommonTests.OverallTests;
+using Identity.Data.AddressOfCustomer;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Order.Data.AddressOfCustomer;
 using Sooduskorv_MVC.Data.CommonData;
 
 namespace Order.Tests.Data.AddressOfCustomer

@@ -1,6 +1,4 @@
-﻿using Sooduskorv_MVC.Data.CommonData;
-
-namespace Order.Data.AddressOfParty
+﻿namespace Identity.Data.AddressOfParty
 {
     public sealed class AddressOfPartyData : AddressedEntityData
     {

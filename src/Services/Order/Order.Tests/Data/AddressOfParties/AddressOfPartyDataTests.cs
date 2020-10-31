@@ -1,6 +1,6 @@
 ﻿using CommonTests.OverallTests;
+using Identity.Data.AddressOfParty;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Order.Data.AddressOfParty;
 using Sooduskorv_MVC.Data.CommonData;
 
 namespace Order.Tests.Data.AddressOfParties

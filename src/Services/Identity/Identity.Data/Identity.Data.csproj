@@ -12,4 +12,8 @@
     <Folder Include="Docs\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Common\Sooduskorv-MVC.Data\Sooduskorv_MVC.Data.csproj" />
+  </ItemGroup>
+
 </Project>

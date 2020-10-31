@@ -1,6 +1,8 @@
-﻿using Sooduskorv_MVC.Data.CommonData;
+﻿
 
-namespace Order.Data.Addresses
+using Sooduskorv_MVC.Data.CommonData;
+
+namespace Identity.Data.Addresses
 {
     public sealed class AddressData : PeriodData
     {

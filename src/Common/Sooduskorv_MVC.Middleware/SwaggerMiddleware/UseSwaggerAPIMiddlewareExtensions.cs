@@ -7,9 +7,7 @@ namespace Sooduskorv_MVC.Middleware.SwaggerMiddleware
     {
         public static IApplicationBuilder UseSwaggerAPI(this IApplicationBuilder app, IConfiguration configuration)
         {
-            app.UseSwagger();
-
-            app.UseSwaggerUI(c =>
+            app.UseSwagger().UseSwaggerUI(c =>
             {
                 c.SwaggerEndpoint("/swagger/V1/swagger.json", "Catalog V1");
             });

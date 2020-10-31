@@ -1,10 +1,10 @@
 ﻿using CommonTests.InfraTests;
+using Identity.Data.Addresses;
+using Identity.Data.AddressOfCustomer;
+using Identity.Data.AddressOfParty;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Order.Data.Addresses;
-using Order.Data.AddressOfCustomer;
-using Order.Data.AddressOfParty;
 using Order.Infra;
 
 namespace Order.Tests.Infra
